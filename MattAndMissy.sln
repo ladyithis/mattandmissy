@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MattAndMissyDB", "MattAndMissyDB\MattAndMissyDB.sqlproj", "{26FF5B5E-9F56-4189-ABC2-1819864B6146}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MattAndMissy", "MattAndMissy\MattAndMissy.csproj", "{1EF855D1-EE3B-40C2-A488-567606B51506}"
 EndProject
 Global
@@ -13,12 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{26FF5B5E-9F56-4189-ABC2-1819864B6146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26FF5B5E-9F56-4189-ABC2-1819864B6146}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26FF5B5E-9F56-4189-ABC2-1819864B6146}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{26FF5B5E-9F56-4189-ABC2-1819864B6146}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26FF5B5E-9F56-4189-ABC2-1819864B6146}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26FF5B5E-9F56-4189-ABC2-1819864B6146}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{1EF855D1-EE3B-40C2-A488-567606B51506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1EF855D1-EE3B-40C2-A488-567606B51506}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EF855D1-EE3B-40C2-A488-567606B51506}.Release|Any CPU.ActiveCfg = Release|Any CPU

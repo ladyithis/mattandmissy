@@ -1,30 +1,17 @@
 ﻿import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export class WeddingHome extends Component {
     static displayName = WeddingHome.name;
 
     constructor(props) {
         super(props);
-        this.state = { currentCount: 0 };
-        this.incrementCounter = this.incrementCounter.bind(this);
-    }
-
-    incrementCounter() {
-        this.setState({
-            currentCount: this.state.currentCount + 1
-        });
     }
 
     render() {
         return (
             <div>
-                <h1>Wedding Home</h1>
-
-                <p>This is a simple example of a React component.</p>
-
-                <p aria-live="polite">Current count: <strong>{this.state.currentCount}</strong></p>
-
-                <button className="btn btn-primary" onClick={this.incrementCounter}>Increment</button>
+                <Link to="/rsvp">RSVP here</Link>
             </div>
         );
     }

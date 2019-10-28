@@ -3,10 +3,7 @@ import { Route } from 'react-router';
 import { Layout } from './components/Layout';
 import { Home } from './components/Home';
 import { WeddingHome } from './components/wedding/Home';
-import { RSVP } from './components/wedding/RSVP';
-import { FetchData } from './components/FetchData';
-import { Counter } from './components/Counter';
-import AuthorizeRoute from './components/api-authorization/AuthorizeRoute';
+import { RSVPHome } from './components/rsvp/Home';
 import ApiAuthorizationRoutes from './components/api-authorization/ApiAuthorizationRoutes';
 import { ApplicationPaths } from './components/api-authorization/ApiAuthorizationConstants';
 
@@ -19,10 +16,8 @@ export default class App extends Component {
     return (
       <Layout>
             <Route exact path='/' component={Home} />
-            <Route path='/counter' component={Counter} />
             <Route path='/wedding' component={WeddingHome} />
-            <Route path='/wedding/RSVP' component={RSVP} />
-            <AuthorizeRoute path='/fetch-data' component={FetchData} />
+            <Route path='/rsvp' component={RSVPHome} />
             <Route path={ApplicationPaths.ApiAuthorizationPrefix} component={ApiAuthorizationRoutes} />
       </Layout>
     );

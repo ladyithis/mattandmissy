@@ -25,7 +25,7 @@ export class RSVPBox extends Component {
         return (
             <div>
                 Enter your RSVP Code here:
-                <input type="text" value={this.state.value} onChange={this.handleCodeChange} name = "rsvp_code" />
+                <input type="text" value={this.state.value} onChange={this.handleCodeChange} name="rsvp_code"/>
                 <button type="button" onClick={this.handleClick}>Submit</button>
             </div>
         );

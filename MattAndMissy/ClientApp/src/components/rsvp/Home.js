@@ -7,14 +7,6 @@ export class RSVPHome extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { hidden: true };
-        this.handleClick = this.handleClick.bind(this);
-    }
-
-    handleClick() {
-        this.setState({
-            hidden: !this.state.hidden
-        });
     }
 
     render() {

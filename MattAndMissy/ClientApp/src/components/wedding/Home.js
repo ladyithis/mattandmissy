@@ -11,6 +11,7 @@ export class WeddingHome extends Component {
     render() {
         return (
             <div>
+                <h1>Wedding Home</h1>
                 <Link to="/rsvp">RSVP here</Link>
             </div>
         );

@@ -19,5 +19,11 @@ namespace MattAndMissy.Data
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
         }
+
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder
+        //        .UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDb;Initial Catalog=MattAndMissy;");
+        //}
     }
 }
